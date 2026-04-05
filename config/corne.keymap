@@ -45,9 +45,9 @@
                 control_layer {
                         display-name = "Control";
                         bindings = <
-   &trans      &none         &none         &none         &none         &none            &none     &none     &none   &none      &none   &trans  
-   &trans      &none         &none         &none         &none         &none            &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none     &none     &none   &none      &none   &trans 
+   &trans      &none         &none         &none         &none         &none            &none     &kp PG_UP  &none   &none      &none   &trans  
+   &trans      &none         &none         &kp PG_DN     &none         &none            &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &trans  &trans
+   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none     &none      &none   &none      &none   &trans 
                           	                                 &trans  &trans  &trans     &trans  &trans  &trans
                         >;
                 };
