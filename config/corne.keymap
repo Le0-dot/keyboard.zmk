@@ -27,19 +27,19 @@
                 letter_layer {
                         display-name = "Letter";
                         bindings = <
-   &kp TAB   &kp Q       &kp W       &kp E        &kp R        &kp T     &kp Y &kp U        &kp I        &kp O       &kp P          &kp BSPC
-   &kp ESC   &hm LGUI A  &hm LALT S  &hm LSHFT D  &hm LCTRL F  &kp G     &kp H &hm RCTRL J  &hm RSHFT K  &hm RALT L  &hm RGUI SEMI  &kp SQT
-   &none     &kp Z       &kp X       &kp C        &kp V        &kp B     &kp N &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                                             &mo 2  &mo 1  &kp SPACE     &kp RET  &mo 1  &mo 2
+   &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp T     &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BSPC
+   &kp ESC    &hm LGUI A  &hm LALT S  &hm LSHFT D  &hm LCTRL F  &kp G     &kp H  &hm RCTRL J  &hm RSHFT K  &hm RALT L  &hm RGUI SEMI  &kp SQT
+   &kp GRAVE  &kp Z       &kp X       &kp C        &kp V        &kp B     &kp N  &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
+                                              &mo 2  &mo 1  &kp SPACE     &kp RET  &mo 1  &mo 2
                         >;
                 };
                 symbol_layer {
                         display-name = "Symbol";
                         bindings = <
-   &trans  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6     &kp N7    &kp N8     &kp N9    &kp N0     &trans
-   &trans  &kp LT    &kp LBRC  &kp LBKT  &kp LPAR  &kp MINUS     &kp PLUS   &kp RPAR  &kp RBKT   &kp RBRC  &kp GT     &trans
-   &trans  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp UNDER     &kp EQUAL  &kp PRCNT &kp CARET  &kp AMPS  &kp ASTRK  &trans
-                    	              &trans  &trans  &trans     &trans  &trans  &trans
+   &trans  &kp N1       &kp N2         &kp N3          &kp N4          &kp N5        &kp N6     &kp N7          &kp N8          &kp N9         &kp N0       &trans
+   &trans  &hm LGUI LT  &hm LALT LBRC  &hm LSHFT LBKT  &hm LCTRL LPAR  &kp MINUS     &kp PLUS   &hm RCTRL RPAR  &hm RSHFT RBKT  &hm RALT RBRC  &hm RGUI GT  &trans
+   &trans  &kp EXCL     &kp AT         &kp HASH        &kp DLLR        &kp UNDER     &kp EQUAL  &kp PRCNT       &kp CARET       &kp AMPS       &kp ASTRK    &trans
+                    	                                  &trans  &trans  &trans     &trans  &trans  &trans
                         >;
                 };
                 control_layer {
